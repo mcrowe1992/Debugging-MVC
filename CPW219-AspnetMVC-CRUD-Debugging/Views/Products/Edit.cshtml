@@ -1,4 +1,4 @@
-﻿@model Product
+﻿@model CPW219_AspnetMVC_CRUD_Debugging.Models.Product
 
 @{
     ViewData["Title"] = "Edit";
@@ -40,5 +40,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

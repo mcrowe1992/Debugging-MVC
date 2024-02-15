@@ -15,6 +15,6 @@ namespace CPW219_AspnetMVC_CRUD_Debugging.Models
         public double Price { get; set; }
 
         [Required]
-        public string Description { get; set; } = null!; // Added "null!" to ignore compiler warning
+        public string Description { get; set; }
     }
 }

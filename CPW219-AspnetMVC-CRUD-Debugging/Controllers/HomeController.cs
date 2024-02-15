@@ -1,5 +1,6 @@
 ﻿using CPW219_AspnetMVC_CRUD_Debugging.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace CPW219_AspnetMVC_CRUD_Debugging.Controllers
